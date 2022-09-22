@@ -4,7 +4,7 @@ RUN pip install lxml
 RUN pip install matplotlib
 RUN pip install tqdm
 RUN pip install Pillow
-RUN pip install cython pyyaml==5.1
+RUN pip install cython pyyaml
 RUN pip install opencv-python
 RUN pip install cython
 RUN pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
