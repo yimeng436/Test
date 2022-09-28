@@ -1,4 +1,4 @@
-FROM bingliunpu/pytorch1.8.1-py38-cuda11.1-cudnn8-ubuntu18.04
+FROM pytorchlightning/pytorch_lightning:base-conda-py3.8-torch1.9
 RUN pip install opencv-python-headless
 RUN pip install numpy
 RUN pip install fairscale
