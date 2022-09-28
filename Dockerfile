@@ -2,7 +2,6 @@ FROM pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel
 RUN pip install opencv-python-headless
 RUN pip install numpy
 RUN pip install fairscale
-RUN pip install -U 'git+https://github.com/facebookresearch/fvcore'
 RUN pip install iopath
 RUN pip install tabulate
 RUN pip install termcolor
