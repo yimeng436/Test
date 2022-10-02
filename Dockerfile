@@ -10,3 +10,5 @@ RUN pip install cython pip install pycocotools
 RUN pip install requests-ntlm
 RUN pip install omegaConf
 RUN pip install timm
+RUN pip install tensorboard
+RUN pip install cloudpickle
