@@ -1,5 +1,5 @@
 FROM pytorch/pytorch:1.9.1-cuda11.1-cudnn8-devel
-RUN pip install opencv-python-headless
+RUN pip install opencv-python
 RUN pip install numpy
 RUN pip install fairscale
 RUN pip install fvcore
